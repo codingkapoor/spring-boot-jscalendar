@@ -20,3 +20,5 @@ The application should take care of Leap years while rendering calendar.
   ```
 
 # Snapshots
+![spring-boot-jscalendar](https://github.com/codingkapoor/spring-boot-jscalendar/blob/master/img/jscalendar1.JPG)
+![spring-boot-jscalendar](https://github.com/codingkapoor/spring-boot-jscalendar/blob/master/img/jscalendar2.JPG)
