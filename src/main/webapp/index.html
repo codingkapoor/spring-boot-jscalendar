@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+	<link rel="stylesheet" href="./css/calendar.css" />
+	
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="./js/calendar.js"></script>
+	
+	</head>
+	
+	<body onload="populateSelect()">
+		<div class="styled-select">
+			<select id="selectYear" onchange="displayCalendar()">
+				<option>Choose a year</option>
+			</select>
+		</div>
+	
+		<hr />
+	
+		<div id="calendar"></div>
+	</body>
+</html>

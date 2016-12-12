@@ -1,0 +1,31 @@
+.tooltip {
+	position: relative;
+	display: inline-block;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	width: 120px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+	/* Position the tooltip text - see examples below! */
+	position: absolute;
+	z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+}
+
+.styled-select select {
+	background: transparent;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 14px;
+	height: 29px;
+	padding: 5px;
+	width: 300px;
+}
