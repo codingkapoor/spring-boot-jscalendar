@@ -7,12 +7,12 @@ It uses Spring MVC and Hibernate based backend for the purpose of storing public
 The application should take care of Leap years while rendering calendar.
 
 # Launch
-- To build the application and host it on localhost:8080
+- To build the application and host it on **localhost:8080**
   `mvn clean compile spring-boot:run`
   
-- H2 web console is accessible on: `localhost:8080/console`
+- **H2 web console** is accessible on: `localhost:8080/console`
 
-- You can also access the restful webservices on POSTMAN:
+- You can also access the restful webservices on **POSTMAN**:
   ```
   http://localhost:8080/years
   http://localhost:8080/years/2016
